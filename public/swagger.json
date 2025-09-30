@@ -1,0 +1,41 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Documentation du projet Blog",
+    "version": "1.0.0",
+    "description": "Ce projet n'a pas d'API REST, documentation créée pour démontrer la maîtrise de Swagger"
+  },
+  "servers": [
+    {
+      "url": "http://172.16.1.228",
+      "description": "Serveur de production"
+    }
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "summary": "Page d'accueil",
+        "description": "Retourne la page d'accueil en HTML",
+        "responses": {
+          "200": {
+            "description": "Page HTML"
+          }
+        }
+      }
+    },
+    "/login": {
+      "post": {
+        "summary": "Formulaire de connexion",
+        "description": "Traite le formulaire de connexion (non REST)",
+        "responses": {
+          "200": {
+            "description": "Connexion réussie"
+          },
+          "401": {
+            "description": "Échec authentification"
+          }
+        }
+      }
+    }
+  }
+}
