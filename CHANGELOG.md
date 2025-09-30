@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ## [unreleased]
 
+### 📚 Documentation
+
+- Ajout CHANGELOG
+- Ajout documentation Swagger (projet sans API REST)
+
 ### ⚙️ Miscellaneous Tasks
 
 - Ajout configuration git-cliff
