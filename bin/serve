@@ -1,0 +1,10 @@
+<?php
+
+exec('php -S localhost:8989 -t public/ public/index.php');
+
+// This will start a PHP built-in server on localhost:8989 and serve files from the public directory.
+// The public/index.php file will be the entry point for your application.
+// You can access your application by navigating to http://localhost:8989 in your web browser.
+// Make sure to adjust the port and paths as necessary for your environment.
+// Note: This is a simplified example. In a real application, you would likely have a more complex routing system and error handling.
+// You might also want to use a front controller pattern to handle all requests through a single entry point
